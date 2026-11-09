@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BigChange Solution Proposal & Executive Summary | Vermeer UK</title>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bc: {
+              navy: '#0D1B4B',
+              navyLight: '#152865',
+              blue: '#1E40C8',
+              sky: '#3A8BFF',
+              lightSky: '#EEF5FF',
+              slate: '#F8FAFC',
+              border: '#E2E8F0'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1E293B;
+      background-color: #F8FAFC;
+    }
+    .custom-shadow {
+      box-shadow: 0 4px 20px -2px rgba(13, 27, 75, 0.06), 0 2px 6px -1px rgba(13, 27, 75, 0.04);
+    }
+    .hero-glow {
+      background: radial-gradient(circle at 80% 20%, rgba(58, 139, 255, 0.12) 0%, rgba(13, 27, 75, 0) 70%);
+    }
+    .nav-tab.active {
+      background-color: #1E40C8;
+      color: #FFFFFF;
+      border-color: #1E40C8;
+    }
+    .nav-tab.active svg {
+      color: #FFFFFF;
+    }
+    .nav-tab.active .tab-subtitle {
+      color: #DDE7FF;
+    }
+  </style>
+</head>
+<body class="antialiased text-slate-800">
+
+  <!-- Top Announcement Bar -->
+  <aside aria-label="Meeting quick link" class="bg-bc-navy text-white text-xs py-2.5 px-4 sticky top-0 z-50 shadow-md">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
+      <div class="flex items-center gap-2">
+        <span class="inline-flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span class="text-slate-300">Operational Proposal for <strong class="text-white font-semibold">Vermeer UK Ltd</strong></span>
+        <span class="hidden md:inline text-slate-400">• Special December Decision Incentive</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <span class="text-emerald-400 font-semibold hidden lg:inline">December Rate: £50/user/mo (Save £3,953/yr)</span>
+        <a href="#commercials" class="inline-flex items-center gap-1.5 bg-bc-blue hover:bg-bc-sky text-white px-3 py-1 rounded-full text-xs font-medium transition duration-200">
+          <span>View Commercial Offer</span>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Header -->
+  <header class="bg-white border-b border-bc-border sticky top-9 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <img src="https://cdn.prod.website-files.com/652cf498161daabd6b40ba1b/67ab22b71528288604bc325e_BigChange-Horz_RGB_EnergyBlue.svg" alt="BigChange" class="h-8 md:h-9 w-auto">
+        <span class="h-6 w-px bg-slate-200 hidden sm:block"></span>
+        <span class="text-xs font-semibold tracking-wider text-slate-500 uppercase hidden sm:block">Vermeer UK Solution Overview</span>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="#support-implementation" class="text-xs md:text-sm font-medium text-slate-600 hover:text-bc-blue transition hidden md:block">Implementation</a>
+        <a href="#commercials" class="text-xs md:text-sm font-medium text-slate-600 hover:text-bc-blue transition hidden md:block">Pricing & Offer</a>
+        <a href="#next-steps" class="bg-bc-navy hover:bg-bc-blue text-white text-xs md:text-sm font-semibold px-4 py-2 rounded-lg transition duration-200 shadow-sm">
+          Next Call: 1st Dec @ 10:15
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section (Tightened) -->
+    <section class="bg-gradient-to-b from-white via-bc-lightSky/40 to-slate-50 border-b border-bc-border py-10 md:py-14 relative overflow-hidden hero-glow">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 border border-blue-200 text-bc-blue text-xs font-semibold uppercase tracking-wider mb-3">
+            Executive Summary & Commercial Proposal
+          </div>
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-bc-navy tracking-tight leading-tight">
+            Field Service Transformation for <span class="text-bc-blue">Vermeer UK</span>
+          </h1>
+          <p class="mt-3 text-base text-slate-600 leading-relaxed">
+            Following our demonstration on Friday, 6th November 2026, this proposal outlines how BigChange replaces manual Trello and paper processes with automated dispatch, mobile fitter workflows, real-time tracking, and verified operational data for Sage 200.
+          </p>
+
+          <!-- Key Scope Highlights -->
+          <div class="mt-6 grid grid-cols-2 sm:grid-cols-4 gap-3">
+            <div class="bg-white border border-blue-100 rounded-xl p-3.5 custom-shadow text-center sm:text-left">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">Field Team</span>
+              <div class="flex items-baseline gap-1.5 justify-center sm:justify-start">
+                <span class="text-base font-extrabold text-bc-navy">5 Engineers</span>
+                <span class="text-[10px] text-slate-400 line-through">£79.95</span>
+              </div>
+              <span class="text-[11px] font-bold text-emerald-600 block">£50.00 / user / mo</span>
+            </div>
+            <div class="bg-white border border-blue-100 rounded-xl p-3.5 custom-shadow text-center sm:text-left">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">Back-Office</span>
+              <div class="flex items-baseline gap-1.5 justify-center sm:justify-start">
+                <span class="text-base font-extrabold text-bc-navy">6 Office Users</span>
+                <span class="text-[10px] text-slate-400 line-through">£79.95</span>
+              </div>
+              <span class="text-[11px] font-bold text-emerald-600 block">£50.00 / user / mo</span>
+            </div>
+            <div class="bg-white border border-blue-100 rounded-xl p-3.5 custom-shadow text-center sm:text-left">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">Onboarding</span>
+              <span class="text-base font-extrabold text-amber-500">Premium Package</span>
+              <span class="text-[11px] text-slate-500 block">£133 / month</span>
+            </div>
+            <div class="bg-white border border-emerald-200 bg-emerald-50/50 rounded-xl p-3.5 custom-shadow text-center sm:text-left">
+              <span class="text-[10px] font-bold uppercase tracking-wider text-emerald-700 block">December Incentive</span>
+              <span class="text-base font-extrabold text-emerald-600">Save £3,953 / yr</span>
+              <span class="text-[11px] text-emerald-700 block">£329.45 / mo savings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Attendees (Tightened) -->
+    <section class="py-10 bg-white border-b border-bc-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between mb-6">
+          <div>
+            <span class="text-xs font-bold uppercase tracking-wider text-bc-blue">Attendees</span>
+            <h2 class="text-xl font-bold text-bc-navy tracking-tight">Who Was in the Room</h2>
+          </div>
+          <span class="text-xs text-slate-400">Call Date: 6th November 2026</span>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Matthew Fryer -->
+          <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 hover:border-blue-300 transition">
+            <div class="flex items-center gap-3">
+              <img src="https://media.licdn.com/dms/image/v2/D4E03AQEFRnvZcLSYQw/profile-displayphoto-scale_200_200/B4EZhax7dVGYAc-/0/1753869695926?e=1795651200&v=beta&t=j74QnYlZfQdu0j9oh9dfIOr7Ij8yPmQPJohM4JL9NsY" alt="Matthew Fryer" class="w-12 h-12 rounded-full object-cover border-2 border-bc-blue">
+              <div>
+                <span class="text-[10px] font-semibold bg-blue-100 text-bc-blue px-1.5 py-0.5 rounded">BigChange</span>
+                <h3 class="text-sm font-bold text-bc-navy mt-0.5">Matthew Fryer</h3>
+                <p class="text-xs text-slate-500">Account Executive</p>
+              </div>
+            </div>
+            <p class="text-xs text-slate-600 mt-3 pt-2.5 border-t border-slate-200">
+              Platform demonstration, scheduling automation, mobile workflows, and commercials.
+            </p>
+          </div>
+
+          <!-- Andrew Beckett -->
+          <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 hover:border-blue-300 transition">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-full bg-bc-navy text-white flex items-center justify-center font-bold text-sm">AB</div>
+              <div>
+                <span class="text-[10px] font-semibold bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded">Vermeer UK</span>
+                <h3 class="text-sm font-bold text-bc-navy mt-0.5">Andrew Beckett</h3>
+                <p class="text-xs text-slate-500">Service Manager</p>
+              </div>
+            </div>
+            <p class="text-xs text-slate-600 mt-3 pt-2.5 border-t border-slate-200">
+              Leading evaluation: labor reporting, recall campaigns, and fitter adoption.
+            </p>
+          </div>
+
+          <!-- Nina Pavic -->
+          <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 hover:border-blue-300 transition">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-full bg-bc-blue text-white flex items-center justify-center font-bold text-sm">NP</div>
+              <div>
+                <span class="text-[10px] font-semibold bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded">Vermeer UK</span>
+                <h3 class="text-sm font-bold text-bc-navy mt-0.5">Nina Pavic</h3>
+                <p class="text-xs text-slate-500">Service Operations</p>
+              </div>
+            </div>
+            <p class="text-xs text-slate-600 mt-3 pt-2.5 border-t border-slate-200">
+              Service desk operations, job allocation, worksheets, and customer communications.
+            </p>
+          </div>
+
+          <!-- Jaap -->
+          <div class="bg-slate-50 border border-slate-200 rounded-xl p-4 hover:border-blue-300 transition">
+            <div class="flex items-center gap-3">
+              <div class="w-12 h-12 rounded-full bg-slate-700 text-white flex items-center justify-center font-bold text-sm">J</div>
+              <div>
+                <span class="text-[10px] font-semibold bg-purple-100 text-purple-800 px-1.5 py-0.5 rounded">Vermeer EMEA</span>
+                <h3 class="text-sm font-bold text-bc-navy mt-0.5">Jaap</h3>
+                <p class="text-xs text-slate-500">Head Office (Netherlands)</p>
+              </div>
+            </div>
+            <p class="text-xs text-slate-600 mt-3 pt-2.5 border-t border-slate-200">
+              Visiting from European HQ (Goes) to review UK operational systems and fit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Operational Snapshot (Clean & Punchy) -->
+    <section class="py-8 bg-slate-50 border-b border-bc-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-2 md:grid-cols-6 gap-3">
+          <div class="bg-white p-3 rounded-lg border border-slate-200 text-center sm:text-left">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">HQ Location</span>
+            <span class="text-xs font-bold text-bc-navy">Wellingborough, UK</span>
+          </div>
+          <div class="bg-white p-3 rounded-lg border border-slate-200 text-center sm:text-left">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Territory</span>
+            <span class="text-xs font-bold text-bc-navy">UK-Wide Coverage</span>
+          </div>
+          <div class="bg-white p-3 rounded-lg border border-slate-200 text-center sm:text-left">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Field Force</span>
+            <span class="text-xs font-bold text-bc-navy">5 Mobile Fitters</span>
+          </div>
+          <div class="bg-white p-3 rounded-lg border border-slate-200 text-center sm:text-left">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Back-Office</span>
+            <span class="text-xs font-bold text-bc-navy">6 Team Members</span>
+          </div>
+          <div class="bg-white p-3 rounded-lg border border-slate-200 text-center sm:text-left">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Finance System</span>
+            <span class="text-xs font-bold text-bc-navy">Sage 200</span>
+          </div>
+          <div class="bg-white p-3 rounded-lg border border-slate-200 text-center sm:text-left">
+            <span class="text-[10px] uppercase font-bold text-slate-400 block">Current Telematics</span>
+            <span class="text-xs font-bold text-bc-navy">Trackitnow Pro</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Challenges & BigChange Solutions (Streamlined) -->
+    <section class="py-12 bg-white border-b border-bc-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mb-8">
+          <span class="text-xs font-bold uppercase tracking-wider text-bc-blue">Identified Priorities</span>
+          <h2 class="text-2xl font-bold text-bc-navy tracking-tight mt-1">Your Challenges & How BigChange Solves Them</h2>
+          <p class="text-xs text-slate-500 mt-1">Directly addressing the pain points raised during our discussion.</p>
+        </div>
+
+        <div class="space-y-3.5">
+          <!-- 1. Job Raising -->
+          <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-slate-300 transition">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
+              <div class="lg:col-span-5 space-y-1.5">
+                <span class="text-[10px] font-bold uppercase text-red-600 bg-red-50 px-2 py-0.5 rounded">Current Bottleneck</span>
+                <h3 class="text-sm font-bold text-bc-navy">Manual Triple-Handling of Jobs</h3>
+                <p class="text-xs text-slate-600">
+                  Calls are taken manually $\rightarrow$ logged into Excel to generate a number $\rightarrow$ re-keyed into Trello $\rightarrow$ transcribed onto paper worksheets.
+                </p>
+                <div class="text-[11px] italic text-slate-500 border-l-2 border-amber-400 pl-2">
+                  "It's just too time consuming and takes us away from the proactive stuff."
+                </div>
+              </div>
+              <div class="lg:col-span-7 bg-white p-4 rounded-lg border border-blue-100 shadow-sm space-y-1">
+                <span class="text-[10px] font-bold uppercase text-bc-blue">BigChange Solution</span>
+                <h4 class="text-xs font-bold text-bc-navy">One-Touch Job Creation & Auto-Sequencing</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Log the job once. BigChange automatically generates the correct reference (Warranty, Chargeable, Service), plots it on the live schedule, and pushes it directly to the fitter's tablet. Excel and Trello are eliminated.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Labor Utilization -->
+          <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-slate-300 transition">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
+              <div class="lg:col-span-5 space-y-1.5">
+                <span class="text-[10px] font-bold uppercase text-red-600 bg-red-50 px-2 py-0.5 rounded">Current Bottleneck</span>
+                <h3 class="text-sm font-bold text-bc-navy">Zero Labor & Efficiency Visibility</h3>
+                <p class="text-xs text-slate-600">
+                  No data on workshop vs. field efficiency. Management cannot reconcile billed hours against actual technician working hours.
+                </p>
+                <div class="text-[11px] italic text-slate-500 border-l-2 border-amber-400 pl-2">
+                  "I can't sit there and go: 'I've billed 10 hours, but they've worked 20.' I don't have utilization ability."
+                </div>
+              </div>
+              <div class="lg:col-span-7 bg-white p-4 rounded-lg border border-blue-100 shadow-sm space-y-1">
+                <span class="text-[10px] font-bold uppercase text-bc-blue">BigChange Solution</span>
+                <h4 class="text-xs font-bold text-bc-navy">Live Timesheets Reconciled with GPS Telematics</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Engineers clock in on the app. Exact travel time, time on site, and workshop job durations are automatically logged and cross-referenced with vehicle telemetry—giving instant utilization and profitability reports.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Motorway Delays & ETA Alerts -->
+          <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-slate-300 transition">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
+              <div class="lg:col-span-5 space-y-1.5">
+                <span class="text-[10px] font-bold uppercase text-red-600 bg-red-50 px-2 py-0.5 rounded">Current Bottleneck</span>
+                <h3 class="text-sm font-bold text-bc-navy">Manual Customer Updates During Traffic Delays</h3>
+                <p class="text-xs text-slate-600">
+                  Fitters stuck on the motorway (e.g. M6 J12-13) must stop to find customer numbers and call ahead, or customers are left uninformed.
+                </p>
+                <div class="text-[11px] italic text-slate-500 border-l-2 border-amber-400 pl-2">
+                  "It would be nice if the system was able to dial ahead and say 9:30 is not going to happen, it's going to be 11:00."
+                </div>
+              </div>
+              <div class="lg:col-span-7 bg-white p-4 rounded-lg border border-blue-100 shadow-sm space-y-1">
+                <span class="text-[10px] font-bold uppercase text-bc-blue">BigChange Solution</span>
+                <h4 class="text-xs font-bold text-bc-navy">Live Traffic Chevrons & Automated Customer Alerts</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  BigChange factors in live Google traffic. If a fitter is delayed, the office schedule flags it immediately and the system automatically sends a branded SMS/email to the customer with an updated arrival time—hands-free for the fitter.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. On-Site History -->
+          <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-slate-300 transition">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
+              <div class="lg:col-span-5 space-y-1.5">
+                <span class="text-[10px] font-bold uppercase text-red-600 bg-red-50 px-2 py-0.5 rounded">Current Bottleneck</span>
+                <h3 class="text-sm font-bold text-bc-navy">No History Available on Site</h3>
+                <p class="text-xs text-slate-600">
+                  Fitters attending a machine for the first time cannot see past repairs, installed parts, or notes without phoning the back-office.
+                </p>
+                <div class="text-[11px] italic text-slate-500 border-l-2 border-amber-400 pl-2">
+                  "If they've not visited before, they've got to rely on phoning somebody else to get the history."
+                </div>
+              </div>
+              <div class="lg:col-span-7 bg-white p-4 rounded-lg border border-blue-100 shadow-sm space-y-1">
+                <span class="text-[10px] font-bold uppercase text-bc-blue">BigChange Solution</span>
+                <h4 class="text-xs font-bold text-bc-navy">Mobile Asset Register with Offline History</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Every machine has a digital record. Fitters tap 'Job History' on their tablet to review past worksheets, replaced parts, operating hours, and photos—even when working offline in remote locations.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Recall Routing -->
+          <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-slate-300 transition">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
+              <div class="lg:col-span-5 space-y-1.5">
+                <span class="text-[10px] font-bold uppercase text-red-600 bg-red-50 px-2 py-0.5 rounded">Current Bottleneck</span>
+                <h3 class="text-sm font-bold text-bc-navy">Manual Routing for Safety Recalls</h3>
+                <p class="text-xs text-slate-600">
+                  Back-office staff manually copy postcodes into Google Maps to visually group recalls and software campaigns across the UK.
+                </p>
+                <div class="text-[11px] italic text-slate-500 border-l-2 border-amber-400 pl-2">
+                  "At the minute it's very much: what's the postcode, put it into Google Maps and sort of jigging around."
+                </div>
+              </div>
+              <div class="lg:col-span-7 bg-white p-4 rounded-lg border border-blue-100 shadow-sm space-y-1">
+                <span class="text-[10px] font-bold uppercase text-bc-blue">BigChange Solution</span>
+                <h4 class="text-xs font-bold text-bc-navy">Geographic Clustering & Route Optimization</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  BigChange automatically groups outstanding safety recalls by territory and optimizes multi-stop routes based on fitter skills and vehicle cost—demonstrated live on the call, saving 31 miles and £85 on a single route.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6. Van Stock & Tooling -->
+          <div class="bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-slate-300 transition">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-5 items-center">
+              <div class="lg:col-span-5 space-y-1.5">
+                <span class="text-[10px] font-bold uppercase text-red-600 bg-red-50 px-2 py-0.5 rounded">Current Bottleneck</span>
+                <h3 class="text-sm font-bold text-bc-navy">Untracked Van Consumables & Specialist Tools</h3>
+                <p class="text-xs text-slate-600">
+                  Consumables (rags, oils, fasteners) and high-value company tooling on vans are untracked, causing cost leakage.
+                </p>
+                <div class="text-[11px] italic text-slate-500 border-l-2 border-amber-400 pl-2">
+                  "Why is it Frank uses more rags than Jenny? Replenishing less often but buying more could save money."
+                </div>
+              </div>
+              <div class="lg:col-span-7 bg-white p-4 rounded-lg border border-blue-100 shadow-sm space-y-1">
+                <span class="text-[10px] font-bold uppercase text-bc-blue">BigChange Solution</span>
+                <h4 class="text-xs font-bold text-bc-navy">Mobile Van Stock & Serialized Tool Audits</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">
+                  Consumables and parts decrement automatically when logged on worksheets, triggering low-stock reorder alerts. Company assets (jacks, test meters, torque wrenches) are assigned to vans and verified via digital audits.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What We Showed You Today (Interactive Unified Card) -->
+    <section class="py-12 bg-slate-50 border-b border-bc-border" id="features-demonstrated">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mb-6">
+          <span class="text-xs font-bold uppercase tracking-wider text-bc-blue">Walkthrough Summary</span>
+          <h2 class="text-2xl font-bold text-bc-navy tracking-tight mt-1">What We Showed You Today</h2>
+          <p class="text-xs text-slate-600 mt-1">Click the tabs on the left to review the demonstrated workflows and their value to Vermeer UK.</p>
+        </div>
+
+        <!-- Unified Interactive Card View -->
+        <div class="bg-white rounded-2xl border border-bc-border custom-shadow overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-12 min-h-[500px]">
+
+            <!-- Left Navigation Flush -->
+            <div class="lg:col-span-4 border-b lg:border-b-0 lg:border-r border-bc-border bg-slate-50/70 p-3 flex flex-col space-y-1">
+              <div class="px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-slate-400">
+                Demonstrated Features
+              </div>
+
+              <button onclick="switchTab(0)" class="nav-tab active w-full text-left p-3 rounded-xl border border-transparent transition-all flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-bc-sky flex-shrink-0"></div>
+                <div class="flex-1 min-w-0">
+                  <div class="text-xs font-bold truncate">1. Live Schedule & TV Wallboard</div>
+                  <div class="tab-subtitle text-[11px] text-slate-500 truncate">Daily swimlanes & color-coded statuses</div>
+                </div>
+              </button>
+
+              <button onclick="switchTab(1)" class="nav-tab w-full text-left p-3 rounded-xl border border-transparent hover:bg-slate-100 text-slate-700 transition-all flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-slate-300 flex-shrink-0"></div>
+                <div class="flex-1 min-w-0">
+                  <div class="text-xs font-bold truncate">2. Smart Scheduling & Routing</div>
+                  <div class="tab-subtitle text-[11px] text-slate-500 truncate">Least-cost dispatch & recall clustering</div>
+                </div>
+              </button>
+
+              <button onclick="switchTab(2)" class="nav-tab w-full text-left p-3 rounded-xl border border-transparent hover:bg-slate-100 text-slate-700 transition-all flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-slate-300 flex-shrink-0"></div>
+                <div class="flex-1 min-w-0">
+                  <div class="text-xs font-bold truncate">3. Mobile App & Speech-to-Text</div>
+                  <div class="tab-subtitle text-[11px] text-slate-500 truncate">100% offline, voice dictation & nav</div>
+                </div>
+              </button>
+
+              <button onclick="switchTab(3)" class="nav-tab w-full text-left p-3 rounded-xl border border-transparent hover:bg-slate-100 text-slate-700 transition-all flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-slate-300 flex-shrink-0"></div>
+                <div class="flex-1 min-w-0">
+                  <div class="text-xs font-bold truncate">4. Enforced Workflows & Worksheets</div>
+                  <div class="tab-subtitle text-[11px] text-slate-500 truncate">RAMS, damage photos & DIY builder</div>
+                </div>
+              </button>
+
+              <button onclick="switchTab(4)" class="nav-tab w-full text-left p-3 rounded-xl border border-transparent hover:bg-slate-100 text-slate-700 transition-all flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-slate-300 flex-shrink-0"></div>
+                <div class="flex-1 min-w-0">
+                  <div class="text-xs font-bold truncate">5. Asset Register & Van Stock</div>
+                  <div class="tab-subtitle text-[11px] text-slate-500 truncate">Machine records, van parts & re-orders</div>
+                </div>
+              </button>
+
+              <button onclick="switchTab(5)" class="nav-tab w-full text-left p-3 rounded-xl border border-transparent hover:bg-slate-100 text-slate-700 transition-all flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-slate-300 flex-shrink-0"></div>
+                <div class="flex-1 min-w-0">
+                  <div class="text-xs font-bold truncate">6. Fleet Tracking & 7-Day Checks</div>
+                  <div class="tab-subtitle text-[11px] text-slate-500 truncate">Hardwired GPS & enforced walkarounds</div>
+                </div>
+              </button>
+
+              <button onclick="switchTab(6)" class="nav-tab w-full text-left p-3 rounded-xl border border-transparent hover:bg-slate-100 text-slate-700 transition-all flex items-center gap-3">
+                <div class="w-2 h-2 rounded-full bg-slate-300 flex-shrink-0"></div>
+                <div class="flex-1 min-w-0">
+                  <div class="text-xs font-bold truncate">7. Back-Office Notes & Sage 200</div>
+                  <div class="tab-subtitle text-[11px] text-slate-500 truncate">@mentions & operational invoicing export</div>
+                </div>
+              </button>
+            </div>
+
+            <!-- Right Content Flush -->
+            <div class="lg:col-span-8 p-6 sm:p-7 flex flex-col justify-between">
+              <div id="tab-content">
+                <!-- Tab 0 -->
+                <div class="tab-pane block space-y-4">
+                  <div class="border-b border-slate-100 pb-3">
+                    <span class="text-[10px] font-bold uppercase text-bc-blue">Core Back-Office</span>
+                    <h3 class="text-lg font-bold text-bc-navy">Live Multi-View Schedule & TV Wallboard</h3>
+                  </div>
+                  <p class="text-xs text-slate-600 leading-relaxed">
+                    Visual operational schedule across Daily, Weekly, and Map views. White areas show working hours, while approved leave blocks out swimlanes to prevent accidental bookings.
+                  </p>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div class="bg-slate-50 p-3.5 rounded-lg border border-slate-200">
+                      <strong class="text-bc-navy block mb-1">What Was Demonstrated:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Color statuses: Green (Done), Purple (On Site), Red (Issues).</li>
+                        <li>Automated booking confirmations sent from your domain.</li>
+                        <li>Drag-and-drop job reallocation in seconds.</li>
+                      </ul>
+                    </div>
+                    <div class="bg-blue-50/50 p-3.5 rounded-lg border border-blue-100">
+                      <strong class="text-bc-navy block mb-1">Value to Vermeer UK:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Replaces static Trello boards with live telematics updates.</li>
+                        <li>Display on an office TV monitor for full operational visibility.</li>
+                        <li>Enables same-day customer billing upon job completion.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab 1 -->
+                <div class="tab-pane hidden space-y-4">
+                  <div class="border-b border-slate-100 pb-3">
+                    <span class="text-[10px] font-bold uppercase text-bc-blue">Smart Dispatch</span>
+                    <h3 class="text-lg font-bold text-bc-navy">Scheduling Assistant & Route Optimization</h3>
+                  </div>
+                  <p class="text-xs text-slate-600 leading-relaxed">
+                    Automated resource matching based on engineer certification, diary availability, travel distance, and vehicle cost.
+                  </p>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div class="bg-slate-50 p-3.5 rounded-lg border border-slate-200">
+                      <strong class="text-bc-navy block mb-1">What Was Demonstrated:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Quick Job booking for emergency plant repairs in under 30s.</li>
+                        <li>Skill-matched filtering for specific machinery types.</li>
+                        <li>Live route re-sequencing: cut travel from 80 to 49 miles (£85 saved).</li>
+                      </ul>
+                    </div>
+                    <div class="bg-blue-50/50 p-3.5 rounded-lg border border-blue-100">
+                      <strong class="text-bc-navy block mb-1">Value to Vermeer UK:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Instantly groups 19+ outstanding safety recalls by postcode.</li>
+                        <li>Eliminates manual Google Maps postcode searches.</li>
+                        <li>Squeezes an extra job per engineer per day to maximize revenue.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab 2 -->
+                <div class="tab-pane hidden space-y-4">
+                  <div class="border-b border-slate-100 pb-3">
+                    <span class="text-[10px] font-bold uppercase text-bc-blue">Field Experience</span>
+                    <h3 class="text-lg font-bold text-bc-navy">Mobile App, Offline Mode & Speech-to-Text</h3>
+                  </div>
+                  <p class="text-xs text-slate-600 leading-relaxed">
+                    Designed for mechanical fitters. Big buttons, zero tech clutter, and 100% offline capability for remote farmland or quarry sites.
+                  </p>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div class="bg-slate-50 p-3.5 rounded-lg border border-slate-200">
+                      <strong class="text-bc-navy block mb-1">What Was Demonstrated:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Speech-to-text dictation for detailed technician notes.</li>
+                        <li>One-tap turn-by-turn navigation with what3words precision.</li>
+                        <li>Direct in-app messaging with quick reply buttons.</li>
+                      </ul>
+                    </div>
+                    <div class="bg-blue-50/50 p-3.5 rounded-lg border border-blue-100">
+                      <strong class="text-bc-navy block mb-1">Value to Vermeer UK:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Easy adoption for 30-year veteran fitters without typing.</li>
+                        <li>Cuts paperwork from 20 minutes to seconds.</li>
+                        <li>Fitters can self-allocate nearby unscheduled jobs if finishing early.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab 3 -->
+                <div class="tab-pane hidden space-y-4">
+                  <div class="border-b border-slate-100 pb-3">
+                    <span class="text-[10px] font-bold uppercase text-bc-blue">Compliance & Safety</span>
+                    <h3 class="text-lg font-bold text-bc-navy">Enforced Workflows & DIY Worksheet Builder</h3>
+                  </div>
+                  <p class="text-xs text-slate-600 leading-relaxed">
+                    Enforced sequence ensures fitters cannot begin work without completing RAMS, and cannot leave site without photos and sign-off.
+                  </p>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div class="bg-slate-50 p-3.5 rounded-lg border border-slate-200">
+                      <strong class="text-bc-navy block mb-1">What Was Demonstrated:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Mandatory pre-job risk assessment sign-off on the screen.</li>
+                        <li>Time-, date-, and GPS-stamped photo capture with damage markup.</li>
+                        <li>Drag-and-drop worksheet builder with conditional logic.</li>
+                      </ul>
+                    </div>
+                    <div class="bg-blue-50/50 p-3.5 rounded-lg border border-blue-100">
+                      <strong class="text-bc-navy block mb-1">Value to Vermeer UK:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Incontestable evidence of completed work and machinery condition.</li>
+                        <li>Prompts fitters to ask for extended warranties or further works.</li>
+                        <li>Vermeer UK can amend forms internally without consultancy fees.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab 4 -->
+                <div class="tab-pane hidden space-y-4">
+                  <div class="border-b border-slate-100 pb-3">
+                    <span class="text-[10px] font-bold uppercase text-bc-blue">Inventory Management</span>
+                    <h3 class="text-lg font-bold text-bc-navy">Machinery Asset Register & Mobile Van Stock</h3>
+                  </div>
+                  <p class="text-xs text-slate-600 leading-relaxed">
+                    Track the lifecycle of every Vermeer machine in the UK alongside mobile van inventory to prevent consumable leakage.
+                  </p>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div class="bg-slate-50 p-3.5 rounded-lg border border-slate-200">
+                      <strong class="text-bc-navy block mb-1">What Was Demonstrated:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Equipment history: serial numbers, hours, and past reports.</li>
+                        <li>In-app schematics & PDF technical library on fitters' tablets.</li>
+                        <li>Van stock auto-decrements with low-level reordering alerts.</li>
+                      </ul>
+                    </div>
+                    <div class="bg-blue-50/50 p-3.5 rounded-lg border border-blue-100">
+                      <strong class="text-bc-navy block mb-1">Value to Vermeer UK:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Fitters see complete machine service history before picking up a wrench.</li>
+                        <li>Stops consumable leakage (rags, lubricants, fasteners).</li>
+                        <li>Tracks company tooling (jacks, meters, specialist wrenches) on vans.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab 5 -->
+                <div class="tab-pane hidden space-y-4">
+                  <div class="border-b border-slate-100 pb-3">
+                    <span class="text-[10px] font-bold uppercase text-bc-blue">Fleet Safety</span>
+                    <h3 class="text-lg font-bold text-bc-navy">Hardwired GPS Tracking & 7-Day Safety Checks</h3>
+                  </div>
+                  <p class="text-xs text-slate-600 leading-relaxed">
+                    Complimentary hardwired vehicle tracking is included as standard, eliminating separate subscriptions such as Trackitnow Pro.
+                  </p>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div class="bg-slate-50 p-3.5 rounded-lg border border-slate-200">
+                      <strong class="text-bc-navy block mb-1">What Was Demonstrated:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Live journey replays, speed monitoring, and idling alerts.</li>
+                        <li>Mandatory 7-day vehicle safety walkaround check with defect logging.</li>
+                        <li>Enforced lockout: fitters cannot start jobs until check is signed.</li>
+                      </ul>
+                    </div>
+                    <div class="bg-blue-50/50 p-3.5 rounded-lg border border-blue-100">
+                      <strong class="text-bc-navy block mb-1">Value to Vermeer UK:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Protects business owners with auditable compliance records.</li>
+                        <li>Replaces Trackitnow Pro once contract expires for immediate savings.</li>
+                        <li>Reconciles engine run time against logged timesheet hours.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Tab 6 -->
+                <div class="tab-pane hidden space-y-4">
+                  <div class="border-b border-slate-100 pb-3">
+                    <span class="text-[10px] font-bold uppercase text-bc-blue">Office & Accounts</span>
+                    <h3 class="text-lg font-bold text-bc-navy">Audit-Trailed Notes & Sage 200 Integration</h3>
+                  </div>
+                  <p class="text-xs text-slate-600 leading-relaxed">
+                    Replaces internal emails and WhatsApp messages with auditable communication, serving as the clean operational driver for Sage 200.
+                  </p>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                    <div class="bg-slate-50 p-3.5 rounded-lg border border-slate-200">
+                      <strong class="text-bc-navy block mb-1">What Was Demonstrated:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>@mention notes: tag colleagues with instant email alerts.</li>
+                        <li>One-click emoji reactions for rapid acknowledgment.</li>
+                        <li>Clean data export for Sage 200 invoicing without double entry.</li>
+                      </ul>
+                    </div>
+                    <div class="bg-blue-50/50 p-3.5 rounded-lg border border-blue-100">
+                      <strong class="text-bc-navy block mb-1">Value to Vermeer UK:</strong>
+                      <ul class="text-slate-600 space-y-1 list-disc list-inside">
+                        <li>Seamless handover communication between Andrew, Nina, and management.</li>
+                        <li>Phase 1: CSV import/export into Sage 200; Phase 2: Open REST API sync.</li>
+                        <li>100% UK-based customer support directly from Leeds.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bottom Indicator -->
+              <div class="mt-6 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-400">
+                <span>Select a feature on the left to view details</span>
+                <button onclick="nextTab()" class="font-semibold text-bc-blue hover:text-bc-navy transition inline-flex items-center gap-1">
+                  <span>Next Feature</span>
+                  <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Implementation & Support Section (Clean & Focused) -->
+    <section class="py-12 bg-white border-b border-bc-border" id="support-implementation">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mb-8">
+          <span class="text-xs font-bold uppercase tracking-wider text-bc-blue">Guided Onboarding</span>
+          <h2 class="text-2xl font-bold text-bc-navy tracking-tight mt-1">Premium Implementation & UK Support</h2>
+          <p class="text-xs text-slate-600 mt-1">
+            Vermeer UK is placed on the <strong>Premium Implementation Package</strong> at <strong>£133 per month</strong>, ensuring guided 1:1 setup, custom worksheet design, data migration, and full ongoing UK technical support.
+          </p>
+        </div>
+
+        <!-- Premium Implementation Package & Phased Delivery -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch mb-8">
+          <!-- Premium Implementation Core Deliverables -->
+          <div class="lg:col-span-7 bg-gradient-to-br from-bc-navy via-bc-navyLight to-slate-900 text-white rounded-2xl p-6 relative border-2 border-bc-blue shadow-xl flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <span class="text-xs font-bold uppercase tracking-wider text-bc-sky">Tailored 1:1 Consulting</span>
+                <div class="text-right">
+                  <span class="text-2xl font-extrabold text-amber-400">£133</span>
+                  <span class="text-xs text-slate-300">/ month</span>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-white">Premium Implementation Package</h3>
+              <p class="text-xs text-slate-300 mt-1">
+                Delivered across <strong>10 structured 1:1 sessions</strong> with your dedicated BigChange consultant.
+              </p>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-5 text-xs text-slate-200">
+                <div class="bg-white/10 p-2.5 rounded-lg">
+                  <strong class="text-white block">Assigned Implementor:</strong>
+                  Dedicated lead managing your milestone delivery.
+                </div>
+                <div class="bg-white/10 p-2.5 rounded-lg">
+                  <strong class="text-white block">10 x 1:1 Guided Sessions:</strong>
+                  Hands-on system configuration with Andrew & Nina.
+                </div>
+                <div class="bg-white/10 p-2.5 rounded-lg">
+                  <strong class="text-white block">2 x Custom Templates:</strong>
+                  Bespoke Vermeer plant repair & RAMS workflows.
+                </div>
+                <div class="bg-white/10 p-2.5 rounded-lg">
+                  <strong class="text-white block">2 x Standard Data Imports:</strong>
+                  Client records & machinery asset register.
+                </div>
+                <div class="bg-white/10 p-2.5 rounded-lg">
+                  <strong class="text-white block">5-Part Workshop Series:</strong>
+                  Live deep dives into scheduling, app, stock & billing.
+                </div>
+                <div class="bg-white/10 p-2.5 rounded-lg">
+                  <strong class="text-white block">BigChange University:</strong>
+                  Full 24/7 video academy access for team onboarding.
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 pt-3 border-t border-white/20 text-xs text-slate-300 flex justify-between items-center">
+              <span>All sessions recorded for your internal reference</span>
+              <span class="font-bold text-bc-sky">Delivery: Remote Guided Sessions</span>
+            </div>
+          </div>
+
+          <!-- Structured Rollout Milestones for Vermeer UK -->
+          <div class="lg:col-span-5 bg-slate-50 border border-slate-200 rounded-2xl p-6 flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] font-bold uppercase tracking-wider text-bc-blue block mb-1">Onboarding Roadmap</span>
+              <h3 class="text-base font-bold text-bc-navy">Structured Milestone Outcomes</h3>
+              <p class="text-xs text-slate-500 mt-1">Tailored around Andrew's phased fitter pilot and target Q1 2027 completion.</p>
+
+              <div class="mt-4 space-y-2.5 text-xs text-slate-600">
+                <div class="flex items-start gap-2.5">
+                  <span class="w-5 h-5 rounded-full bg-blue-100 text-bc-blue font-bold flex items-center justify-center flex-shrink-0 text-[10px]">1</span>
+                  <div>
+                    <strong class="text-bc-navy block">System Build & Data Migration</strong>
+                    <span class="text-slate-500 text-[11px]">Asset register, customer sites, and Sage 200 account mapping.</span>
+                  </div>
+                </div>
+                <div class="flex items-start gap-2.5">
+                  <span class="w-5 h-5 rounded-full bg-blue-100 text-bc-blue font-bold flex items-center justify-center flex-shrink-0 text-[10px]">2</span>
+                  <div>
+                    <strong class="text-bc-navy block">Custom Worksheets & Compliance</strong>
+                    <span class="text-slate-500 text-[11px]">Plant machine repair forms, RAMS, damage photos & van checks.</span>
+                  </div>
+                </div>
+                <div class="flex items-start gap-2.5">
+                  <span class="w-5 h-5 rounded-full bg-blue-100 text-bc-blue font-bold flex items-center justify-center flex-shrink-0 text-[10px]">3</span>
+                  <div>
+                    <strong class="text-bc-navy block">Fitter Pilot Trial ("Guinea Pig" Phase)</strong>
+                    <span class="text-slate-500 text-[11px]">Field-test mobile app with 1 engineer, refine workflows & feedback.</span>
+                  </div>
+                </div>
+                <div class="flex items-start gap-2.5">
+                  <span class="w-5 h-5 rounded-full bg-emerald-100 text-emerald-700 font-bold flex items-center justify-center flex-shrink-0 text-[10px]">4</span>
+                  <div>
+                    <strong class="text-bc-navy block">Company-Wide Rollout (Q1 2027)</strong>
+                    <span class="text-slate-500 text-[11px]">Remaining 4 fitters equipped; live TV wallboard active in office.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-4 pt-3 border-t border-slate-200 text-[11px] text-slate-400">
+              Structured milestone sign-offs ensure complete operational readiness.
+            </div>
+          </div>
+        </div>
+
+        <!-- Support Ecosystem 3 Pillars -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+          <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+            <h4 class="font-bold text-bc-navy">In-App Technician Support</h4>
+            <p class="text-slate-600 mt-1">Fitters tap the 'Help' button directly inside the app to call BigChange UK support instantly from their tablet.</p>
+          </div>
+          <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+            <h4 class="font-bold text-bc-navy">Leeds Support Desk</h4>
+            <p class="text-slate-600 mt-1">Unlimited telephone and digital support for Andrew, Nina, and the office team from UK plant industry specialists.</p>
+          </div>
+          <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+            <h4 class="font-bold text-bc-navy">BigChange University</h4>
+            <p class="text-slate-600 mt-1">On-demand 24/7 video training portal to onboard new fitters and office staff as Vermeer UK expands in 2027.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing & Commercials (December Decision Incentive) -->
+    <section class="py-12 bg-slate-50 border-b border-bc-border" id="commercials">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mb-6">
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider mb-2">
+            <svg class="w-3.5 h-3.5 text-emerald-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+            December Decision Commercial Incentive
+          </div>
+          <h2 class="text-2xl font-bold text-bc-navy tracking-tight">Commercial Pricing & Savings Overview</h2>
+          <p class="text-xs text-slate-600 mt-1">
+            To support Vermeer UK's planned January pilot and full rollout by the end of Q1 2027, we have secured a special <strong>December decision rate of £50.00 per user per month</strong> (discounted from list price £79.95), saving Vermeer UK <strong>£329.45 every month (£3,953.40 annually)</strong>.
+          </p>
+        </div>
+
+        <!-- Commercial Conditions & Savings Banner -->
+        <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-4 mb-6 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <div class="space-y-1">
+            <div class="flex items-center gap-2">
+              <span class="text-xs font-bold text-emerald-900 uppercase tracking-wide">Incentive Terms:</span>
+              <span class="text-xs font-semibold bg-emerald-200 text-emerald-800 px-2 py-0.5 rounded">December Decision Sign-Off</span>
+            </div>
+            <p class="text-xs text-emerald-800">
+              Secures your implementation slot for early January setup. Any future users added during the term are locked in at this same discounted £50.00/user rate.
+            </p>
+          </div>
+          <div class="bg-white border border-emerald-200 rounded-lg px-4 py-2 text-center flex-shrink-0 shadow-sm">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">Total Annual Savings</span>
+            <span class="text-lg font-extrabold text-emerald-600">£3,953.40 / year</span>
+            <span class="text-[10px] text-slate-500 block">£11,860.20 over 36 months</span>
+          </div>
+        </div>
+
+        <!-- Hardware Toggle -->
+        <div class="flex items-center justify-center mb-6">
+          <div class="bg-white p-1 rounded-xl inline-flex items-center gap-1 border border-slate-200 shadow-sm text-xs">
+            <button id="btn-soft-only" onclick="setPricingOption('software')" class="px-3.5 py-1.5 rounded-lg font-semibold transition bg-bc-navy text-white shadow-sm">
+              Standard: £50/user (Bring Your Own Tablets)
+            </button>
+            <button id="btn-hw-bundle" onclick="setPricingOption('hardware')" class="px-3.5 py-1.5 rounded-lg font-semibold transition text-slate-600 hover:text-bc-navy">
+              + Managed Tablets: £70/engineer (+£20/mo Samsung Tab Active 5)
+            </button>
+          </div>
+        </div>
+
+        <!-- Pricing Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- Card 1: Implementation -->
+          <div class="bg-white border border-slate-200 rounded-xl p-5 custom-shadow flex flex-col justify-between">
+            <div>
+              <span class="text-[10px] font-bold uppercase text-slate-400">Onboarding</span>
+              <h3 class="text-sm font-bold text-bc-navy mt-0.5">Premium Package</h3>
+              <div class="mt-3 flex items-baseline gap-1">
+                <span class="text-2xl font-extrabold text-bc-navy">£133.00</span>
+                <span class="text-xs text-slate-500">/ mo</span>
+              </div>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-600">
+                <li>• 10 x 1:1 consulting sessions</li>
+                <li>• Assigned implementation lead</li>
+                <li>• 2 x custom templates & RAMS</li>
+                <li>• 2 x data imports (assets/clients)</li>
+                <li>• Unlimited UK support (Leeds)</li>
+              </ul>
+            </div>
+            <div class="mt-5 pt-3 border-t border-slate-100 text-xs font-bold text-bc-navy">
+              Subtotal: £133.00 / month
+            </div>
+          </div>
+
+          <!-- Card 2: Field Fitters -->
+          <div class="bg-white border border-slate-200 rounded-xl p-5 custom-shadow flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] font-bold uppercase text-bc-blue">5 Field Engineers</span>
+                <span class="text-[10px] font-semibold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded">Save £29.95/user</span>
+              </div>
+              <h3 class="text-sm font-bold text-bc-navy mt-0.5">Mobile Licences</h3>
+              <div class="mt-3">
+                <div class="flex items-baseline gap-1.5">
+                  <span id="price-engineer" class="text-2xl font-extrabold text-emerald-600">£50.00</span>
+                  <span class="text-xs text-slate-500">/ user / mo</span>
+                  <span id="list-price-engineer" class="text-xs text-slate-400 line-through">£79.95</span>
+                </div>
+              </div>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-600">
+                <li>• Mobile app (iOS & Android)</li>
+                <li>• 100% offline data mode</li>
+                <li>• Speech-to-text dictation</li>
+                <li>• Vehicle tracking & install included</li>
+                <li id="item-hw-feature" class="hidden font-semibold text-bc-blue">• Samsung Tab Active 5 + SIM + Cradle</li>
+              </ul>
+            </div>
+            <div class="mt-5 pt-3 border-t border-slate-100 text-xs">
+              <div class="flex justify-between items-center">
+                <span class="font-bold text-bc-navy">Subtotal:</span>
+                <span id="subtotal-engineer" class="font-bold text-bc-navy">£250.00 / month</span>
+              </div>
+              <span id="saving-engineer" class="text-[11px] text-emerald-600 block mt-0.5">Saves £149.75 / mo (was £399.75)</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Office Users -->
+          <div class="bg-white border border-slate-200 rounded-xl p-5 custom-shadow flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] font-bold uppercase text-slate-400">6 Office Staff</span>
+                <span class="text-[10px] font-semibold text-emerald-700 bg-emerald-50 px-1.5 py-0.5 rounded">Save £29.95/user</span>
+              </div>
+              <h3 class="text-sm font-bold text-bc-navy mt-0.5">Office Licences</h3>
+              <div class="mt-3">
+                <div class="flex items-baseline gap-1.5">
+                  <span class="text-2xl font-extrabold text-emerald-600">£50.00</span>
+                  <span class="text-xs text-slate-500">/ user / mo</span>
+                  <span class="text-xs text-slate-400 line-through">£79.95</span>
+                </div>
+              </div>
+              <ul class="mt-4 space-y-1.5 text-xs text-slate-600">
+                <li>• Live multi-view schedule</li>
+                <li>• Smart scheduling assistant</li>
+                <li>• Recall route optimization</li>
+                <li>• Operational export for Sage 200</li>
+                <li>• @mention team notes & CRM</li>
+              </ul>
+            </div>
+            <div class="mt-5 pt-3 border-t border-slate-100 text-xs">
+              <div class="flex justify-between items-center">
+                <span class="font-bold text-bc-navy">Subtotal:</span>
+                <span class="font-bold text-bc-navy">£300.00 / month</span>
+              </div>
+              <span class="text-[11px] text-emerald-600 block mt-0.5">Saves £179.70 / mo (was £479.70)</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Total -->
+          <div class="bg-gradient-to-br from-bc-navy to-bc-navyLight text-white rounded-xl p-5 custom-shadow flex flex-col justify-between shadow-lg">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-[10px] font-bold uppercase text-bc-sky">Total Investment</span>
+                <span id="badge-total-saving" class="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-400 text-slate-900">Save 33%</span>
+              </div>
+              <h3 class="text-sm font-bold text-white mt-0.5">Summary</h3>
+              <div class="mt-3 flex items-baseline gap-1.5">
+                <span id="price-total" class="text-2xl font-extrabold text-emerald-400">£683.00</span>
+                <span class="text-xs text-slate-300">/ mo</span>
+                <span id="list-total" class="text-xs text-slate-400 line-through">£1,012.45</span>
+              </div>
+              <div class="mt-3 space-y-1.5 text-xs text-slate-200 bg-white/10 p-2.5 rounded-lg">
+                <div class="flex justify-between"><span>Monthly Saving:</span><strong class="text-emerald-400">£329.45 / mo</strong></div>
+                <div class="flex justify-between"><span>Annual Saving:</span><strong class="text-emerald-400">£3,953.40 / yr</strong></div>
+                <div class="flex justify-between"><span>Upfront Fee:</span><strong class="text-white">£0 Upfront</strong></div>
+                <div class="flex justify-between"><span>Contract:</span><strong>36-Month Term</strong></div>
+                <div class="flex justify-between"><span>GPS Tracking:</span><strong class="text-white">Included (£0)</strong></div>
+              </div>
+            </div>
+            <div class="mt-4 pt-3 border-t border-white/20 text-[11px] text-bc-sky flex justify-between">
+              <span>11 Users + Premium</span>
+              <span class="text-emerald-300 font-semibold">Dec Offer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-6 bg-white p-4 rounded-xl border border-slate-200 text-xs text-slate-500 flex flex-col sm:flex-row gap-4">
+          <p><strong>• Sage 200:</strong> Phase 1 uses standardized CSV export/import for invoicing. Full API sync can be connected in Phase 2 via internal dev or partner network.</p>
+          <p><strong>• Trackitnow:</strong> Complimentary BigChange tracking can be installed alongside Trackitnow until your renewal, eliminating dual running costs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Next Steps (Dark Card) -->
+    <section class="py-12 bg-white border-b border-bc-border" id="next-steps">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-bc-navy rounded-2xl p-6 sm:p-10 text-white shadow-xl relative overflow-hidden">
+          <div class="max-w-3xl">
+            <span class="text-xs font-bold uppercase tracking-wider text-bc-sky">Action Plan</span>
+            <h2 class="text-2xl font-extrabold text-white tracking-tight mt-1">Confirmed Next Steps</h2>
+            <p class="text-xs text-slate-300 mt-1">Agreed timeline to target early January setup and Q1 2027 go-live.</p>
+
+            <div class="mt-6 space-y-3">
+              <div class="bg-white/10 border border-white/15 rounded-xl p-3.5 flex items-start gap-3">
+                <span class="w-7 h-7 rounded-lg bg-bc-sky/20 text-bc-sky flex items-center justify-center font-bold text-xs flex-shrink-0">1</span>
+                <div>
+                  <div class="flex items-center justify-between gap-2">
+                    <strong class="text-xs text-white">Proposal & Reference Materials</strong>
+                    <span class="text-[10px] bg-blue-500/30 text-blue-200 px-2 py-0.5 rounded">Matthew Fryer</span>
+                  </div>
+                  <p class="text-xs text-slate-300 mt-0.5">Issue this interactive proposal, HTF Transport video, and Hitachi sector references.</p>
+                </div>
+              </div>
+
+              <div class="bg-white/10 border border-white/15 rounded-xl p-3.5 flex items-start gap-3">
+                <span class="w-7 h-7 rounded-lg bg-bc-sky/20 text-bc-sky flex items-center justify-center font-bold text-xs flex-shrink-0">2</span>
+                <div>
+                  <div class="flex items-center justify-between gap-2">
+                    <strong class="text-xs text-white">Internal Review with Managing Director</strong>
+                    <span class="text-[10px] bg-emerald-500/30 text-emerald-200 px-2 py-0.5 rounded">Andrew & Nina</span>
+                  </div>
+                  <p class="text-xs text-slate-300 mt-0.5">Present findings, select the initial pilot fitter, and verify Trackitnow renewal dates.</p>
+                </div>
+              </div>
+
+              <div class="bg-gradient-to-r from-bc-blue to-blue-700 border border-blue-400/40 rounded-xl p-3.5 flex items-start gap-3 shadow-md">
+                <span class="w-7 h-7 rounded-lg bg-white text-bc-navy flex items-center justify-center font-bold text-xs flex-shrink-0">3</span>
+                <div class="flex-1">
+                  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+                    <strong class="text-xs text-white">Follow-Up Meeting (Confirmed)</strong>
+                    <span class="text-xs font-bold px-2 py-0.5 rounded bg-white text-bc-navy">Tuesday, 1st Dec 2026 @ 10:15 AM GMT</span>
+                  </div>
+                  <p class="text-xs text-blue-100 mt-0.5">Catch-up to review MD feedback, finalize commercials, and schedule the January implementation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact Footer -->
+  <footer class="bg-white border-t border-bc-border py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-6 pb-6 border-b border-slate-200">
+        <div class="flex items-center gap-4 text-center sm:text-left">
+          <img src="https://media.licdn.com/dms/image/v2/D4E03AQEFRnvZcLSYQw/profile-displayphoto-scale_200_200/B4EZhax7dVGYAc-/0/1753869695926?e=1795651200&v=beta&t=j74QnYlZfQdu0j9oh9dfIOr7Ij8yPmQPJohM4JL9NsY" alt="Matthew Fryer" class="w-14 h-14 rounded-full object-cover border-2 border-bc-blue">
+          <div>
+            <h3 class="text-base font-bold text-bc-navy">Matthew Fryer</h3>
+            <p class="text-xs text-slate-500">Account Executive | BigChange</p>
+            <div class="flex items-center gap-3 mt-1.5 text-xs">
+              <a href="tel:07951081056" class="font-semibold text-bc-navy hover:text-bc-blue transition">07951 081 056</a>
+              <span class="text-slate-300">•</span>
+              <a href="mailto:matthew.fryer@bigchange.com" class="font-semibold text-bc-navy hover:text-bc-blue transition">matthew.fryer@bigchange.com</a>
+            </div>
+          </div>
+        </div>
+
+        <img src="https://cdn.prod.website-files.com/652cf498161daabd6b40ba1b/67ab22b71528288604bc325e_BigChange-Horz_RGB_EnergyBlue.svg" alt="BigChange" class="h-7 w-auto">
+      </div>
+
+      <div class="mt-4 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-2">
+        <p>© 2026 BigChange Ltd. Registered in the UK.</p>
+        <p>Prepared for Vermeer UK Ltd</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script>
+    let currentTabIndex = 0;
+    const totalTabs = 7;
+
+    function switchTab(index) {
+      currentTabIndex = index;
+      const tabs = document.querySelectorAll('.nav-tab');
+      const panes = document.querySelectorAll('.tab-pane');
+
+      tabs.forEach((tab, i) => {
+        const dot = tab.querySelector('div');
+        if (i === index) {
+          tab.classList.add('active');
+          tab.classList.remove('hover:bg-slate-100', 'text-slate-700');
+          if (dot) { dot.classList.add('bg-white'); dot.classList.remove('bg-bc-sky', 'bg-slate-300'); }
+        } else {
+          tab.classList.remove('active');
+          tab.classList.add('hover:bg-slate-100', 'text-slate-700');
+          if (dot) { dot.classList.remove('bg-white'); dot.classList.add('bg-slate-300'); }
+        }
+      });
+
+      panes.forEach((pane, i) => {
+        if (i === index) {
+          pane.classList.remove('hidden');
+          pane.classList.add('block');
+        } else {
+          pane.classList.add('hidden');
+          pane.classList.remove('block');
+        }
+      });
+    }
+
+    function nextTab() {
+      const nextIndex = (currentTabIndex + 1) % totalTabs;
+      switchTab(nextIndex);
+    }
+
+    function setPricingOption(option) {
+      const btnSoft = document.getElementById('btn-soft-only');
+      const btnHw = document.getElementById('btn-hw-bundle');
+      const priceEngineer = document.getElementById('price-engineer');
+      const listPriceEngineer = document.getElementById('list-price-engineer');
+      const subtotalEngineer = document.getElementById('subtotal-engineer');
+      const savingEngineer = document.getElementById('saving-engineer');
+      const priceTotal = document.getElementById('price-total');
+      const listTotal = document.getElementById('list-total');
+      const hwItem = document.getElementById('item-hw-feature');
+
+      if (option === 'hardware') {
+        btnHw.classList.add('bg-bc-navy', 'text-white', 'shadow-sm');
+        btnHw.classList.remove('text-slate-600');
+        btnSoft.classList.remove('bg-bc-navy', 'text-white', 'shadow-sm');
+        btnSoft.classList.add('text-slate-600');
+
+        // Discounted: £50 user + £20 tablet = £70/engineer (List was £99.95)
+        priceEngineer.textContent = '£70.00';
+        listPriceEngineer.textContent = '£99.95';
+        hwItem.classList.remove('hidden');
+        subtotalEngineer.textContent = '£350.00 / month';
+        savingEngineer.textContent = 'Saves £149.75 / mo (was £499.75)';
+
+        // £133 + £350 (5 fitters @ £70) + £300 (6 office @ £50) = £783.00 (List was £1,112.45)
+        priceTotal.textContent = '£783.00';
+        listTotal.textContent = '£1,112.45';
+      } else {
+        btnSoft.classList.add('bg-bc-navy', 'text-white', 'shadow-sm');
+        btnSoft.classList.remove('text-slate-600');
+        btnHw.classList.remove('bg-bc-navy', 'text-white', 'shadow-sm');
+        btnHw.classList.add('text-slate-600');
+
+        // Discounted: £50 user (List was £79.95)
+        priceEngineer.textContent = '£50.00';
+        listPriceEngineer.textContent = '£79.95';
+        hwItem.classList.add('hidden');
+        subtotalEngineer.textContent = '£250.00 / month';
+        savingEngineer.textContent = 'Saves £149.75 / mo (was £399.75)';
+
+        // £133 + £250 (5 fitters @ £50) + £300 (6 office @ £50) = £683.00 (List was £1,012.45)
+        priceTotal.textContent = '£683.00';
+        listTotal.textContent = '£1,012.45';
+      }
+    }
+  </script>
+</body>
+</html>
